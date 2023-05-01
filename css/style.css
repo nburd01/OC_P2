@@ -120,7 +120,7 @@ main {
   border-bottom: 0.1em solid;
   border-color: white;
   text-decoration: none;
-  /* color: var(--grey-shade); */
+  border-bottom: solid 1px var(--grey-shade);
 }
 .dot {
   height: 25px;
@@ -152,7 +152,7 @@ main {
   border: solid 1px var(--grey-shade);
   border-radius: 1.25em;
   height: 3.125em;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .search .icon {
@@ -297,7 +297,7 @@ main {
   border-radius: 5px;
   object-fit: cover;
   width: 100%;
-  border-radius: 1.25em 1.25em 0 0;
+  border-radius: 1.25em 0 0 1.25em ;
 }
 
 .hebergement .card-img img,
@@ -420,6 +420,7 @@ footer h3 {
   .nav-item {
     border-bottom: none;
     border-top: 0.2rem;
+    border-bottom: solid 1px var(--main-bg-color);
   }
   .nav-item:active,
   .nav-item:hover {
@@ -618,11 +619,14 @@ footer h3 {
     margin: -3.5em 0;
     flex-wrap: nowrap;
   }
+  header{
+    display:flex;
+  }
   .topbar {
     /* background-color:lightgreen; */
     width: 83.75em;
     margin: auto;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   .filtre {
     display: flex;
