@@ -33,6 +33,12 @@ h1 {
   font-weight: bold;
   font-size: 1.4em;
 }
+
+.heb {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 p {
   font-size: 16px;
 }
@@ -297,7 +303,7 @@ main {
   border-radius: 5px;
   object-fit: cover;
   width: 100%;
-  border-radius: 1.25em 0 0 1.25em ;
+  border-radius: 1.25em 1.25em 0 1.25em;
 }
 
 .hebergement .card-img img,
@@ -366,6 +372,13 @@ footer h3 {
 
 .list :first-child {
   margin-top: 1.5em;
+}
+.title .heb {
+  /* width: 70%; */
+  display: flex;
+}
+.title .heb h1 {
+  width: auto;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -505,7 +518,7 @@ footer h3 {
     margin: 1.8em 2.9em;
   }
   .switch .title {
-    margin: 2em 0 0.8em 2em;
+    margin: 2em 2em 0.8em 2em;
   }
   .switch .show-more {
     margin: 1em 2em 2em 1.7em;
@@ -532,7 +545,7 @@ footer h3 {
   }
   .card-title p {
     width: 100%;
-    padding-left:1em;
+    padding-left: 1em;
   }
 
   .card-title {
@@ -619,8 +632,8 @@ footer h3 {
     margin: -3.5em 0;
     flex-wrap: nowrap;
   }
-  header{
-    display:flex;
+  header {
+    display: flex;
   }
   .topbar {
     /* background-color:lightgreen; */
