@@ -411,11 +411,17 @@ footer h3 {
 
   .topbar {
     display: flex;
-    justify-content: space-between;
     height: 4.7em;
     width: 57.75em;
     backround-color: lightgreen;
-    justify-content: space-between;
+    margin: auto;
+  }
+  .topbar img {
+    display: flex;
+    height: 1.5em;
+    width: auto;
+    margin: 1em;
+    margin: 1.8em 2.9em 2.9em 0;
   }
   .nav {
     width: 18%;
@@ -515,7 +521,7 @@ footer h3 {
     width: fit-content;
   }
   .logo {
-    margin: 1.8em 2.9em;
+    margin: 1.8em 2.9em 2.9em 0;
   }
   .switch .title {
     margin: 2em 2em 0.8em 2em;
