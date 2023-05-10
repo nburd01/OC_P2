@@ -160,6 +160,17 @@ main {
   height: 3.125em;
   justify-content: space-between;
 }
+form {
+  display: flex;
+}
+form input {
+
+    focus
+}
+form input:focus {
+
+    focus
+}
 
 .search .icon {
   display: flex;
@@ -175,14 +186,23 @@ main {
 }
 .search .city {
   display: flex;
-  width: 80%;
   align-items: center;
+  border: none;
+  width: -webkit-fill-available;    
 }
 .button {
   color: white;
 }
-.city p {
-  padding-left: 5%;
+.city input {
+  margin-left: 5%;
+  height: 2em;
+  display: flex;
+  border: solid white;
+}
+form input {
+  display: flex;
+  height: 100%;
+  width: 23.56em;
 }
 .search .button {
   background-color: var(--main-color);
@@ -382,11 +402,11 @@ footer h3 {
   width: auto;
 }
 
-.fa-magnifying-glass{
-    color: white;
+.fa-magnifying-glass {
+  color: white;
 }
-.fa-info{
-    color: #0065fc
+.fa-info {
+  color: #0065fc;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
