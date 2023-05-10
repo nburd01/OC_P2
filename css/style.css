@@ -382,6 +382,13 @@ footer h3 {
   width: auto;
 }
 
+.fa-magnifying-glass{
+    color: white;
+}
+.fa-info{
+    color: #0065fc
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 /****** Media queries ***********/
 
@@ -439,8 +446,8 @@ footer h3 {
   }
   .nav-item {
     border-bottom: none;
-    border-top: 0.2rem;
-    border-bottom: solid 1px var(--main-bg-color);
+    border-top: 0.2rem solid white;
+    border-bottom: none;
   }
   .nav-item:active,
   .nav-item:hover {
